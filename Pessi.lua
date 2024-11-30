@@ -84,7 +84,7 @@ function TransactionManager:Init()
     script.register_looped("bountyloop", function(script)
         if(bountyloop:is_enabled()) then 
             self:TriggerTransaction(0xC4F96E65);
-            script:sleep(10000);
+            script:sleep(8000);
             self:TriggerTransaction(0x610F9AB4);
         end
     end)
